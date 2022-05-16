@@ -39,9 +39,9 @@ jobs:
           
   hello-world-windows:
       runs-on: windows-latest
+      needs: hello_world
       
       steps: 
-      
         - name: Print hello world
           run: echo "hello world windows"
         
