@@ -50,7 +50,7 @@ jobs:
         
   hello-world-macos:
         runs-on: macos-latest
-        needs: hello-world-windows
+      
     
         steps:
           - name: Print hello world
